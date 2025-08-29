@@ -102,3 +102,78 @@ body {
   border-color: #76a13e;
 }
 
+.product-section {
+  background-color: #E8F1DD;
+  padding: 80px 60px;
+}
+
+.section-header h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #347433;
+}
+
+.sub-title {
+  font-size: 18px;
+  color: #FFC107;
+  margin-bottom: 50px;
+}
+
+.product-card {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+}
+
+.product-card img {
+  max-width: 100%;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.product-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  font-size: 14px;
+  color: #555555;
+}
+
+.product-section .btn {
+  background-color: #8AB855;
+  border-color: #8AB855;
+  color: white;
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.product-section .btn:hover {
+  background-color: #76a13e;
+  border-color: #76a13e;
+}
+
+.product-link {
+  text-decoration: none; /* hilangkan garis bawah */
+  color: inherit; /* warna teks tetap sama */
+  display: block; /* supaya seluruh card bisa diklik */
+}
+
+.product-link .product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
