@@ -16,7 +16,7 @@ body {
 
 /* Logo/title */
 .navbar .logo {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 600;
 }
 
@@ -35,6 +35,33 @@ body {
 }
 
 .navbar ul li:hover {
-  color: #f39c12;
+  color: #FFC107;
 }
 
+.hero {
+  background-color: #E8F1DD;
+  color: black;
+  padding: 30px 20px;
+}
+
+.hero-content {
+  display: flex;
+  align-items: right;
+  justify-content: left;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero img {
+  max-width: 100%;
+  font-weight: 600;
+}
+
+.hero h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.highlight {
+  color: #FFC107;  /* ubah warna kata Hari Ini jadi kuning */
+}
