@@ -229,3 +229,102 @@ body {
   color: black;
   font-weight: 500;
 }
+/* Articles Section */
+.articles-section {
+  background-color: #E8F1DD;
+  padding: 60px 60px;
+}
+
+/* Semua card artikel */
+.articles-section .card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-radius: 8px;
+}
+
+.articles-section .sub-title {
+  font-size: 18px;
+  color: #FFC107;
+  margin-bottom: 50px;
+}
+
+.articles-section .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Badge kategori */
+.articles-section .badge {
+  font-size: 0.8rem;
+  padding: 0.4em 0.7em;
+  color: #FFf;
+  background-color: #FFC107;
+}
+
+/* Artikel terbaru (kiri) */
+.latest-article .card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.latest-article .card-text {
+  font-size: 0.95rem;
+  color: #555555;
+  margin-bottom: 15px;
+}
+
+.latest-article img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* Artikel lain (kanan) */
+.other-article {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.other-article .card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.other-article img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.other-article .card-body {
+  padding: 0;
+  flex: 1;
+}
+
+.other-article .card-body .card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.other-article .card-body .card-text {
+  font-size: 0.85rem;
+  color: #555555;
+  margin-bottom: 5px;
+}
+
+.other-article .card-body span {
+  cursor: pointer;
+  font-size: 0.8rem;
+  color: #FFC107; /* hijau bootstrap */
+}
+
+.other-article .card-body span:hover {
+  text-decoration: underline;
+}
