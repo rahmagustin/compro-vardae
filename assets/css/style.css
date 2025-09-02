@@ -329,3 +329,46 @@ body {
 .other-article .card-body span:hover {
   text-decoration: underline;
 }
+
+.contact-section {
+  background-color: #fff;
+}
+
+.contact-header .fw-bold {
+  font-size: 36px;
+  font-weight: 600;
+  color: #347433;
+}
+
+.contact-section .sub-title {
+  font-size: 18px;
+  color: #FFC107;
+  margin-bottom: 0;
+}
+
+.contact-section h3 {
+  font-size: 1.8rem;
+  color: #347433;
+}
+
+.contact-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.contact-section .btn {
+  background-color: #8AB855;
+  border-color: #8AB855;
+  color: white;
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.contact-section .btn:hover {
+  background-color: #76a13e;
+  border-color: #76a13e;
+}
+
